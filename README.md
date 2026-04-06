@@ -14,16 +14,17 @@ The cache keeps track of cache **hits**, **misses**, and **total operations**, p
 5. Fully **C++17 compatible**.  
 
 ---
-
-## Project Structure
-LRUcachesystem/
+ ## Project Structure
+```text
+LRU-Cache-System-Cpp/
 ├── include/
-│   └── LRUCache.h            # LRUCache class definition
+│   └── LRUCache.h       # Class definition & templates
 ├── src/
-│   ├── LRUCache.cpp          # LRUCache function implementations
-│   └── main.cpp              # CLI interface / demo program
-├── README.md                 # Project description and usage
-└── .gitignore                # Files/folders to ignore in Git
+│   ├── LRUCache.cpp     # Implementation details
+│   └── main.cpp         # Demo/CLI interface
+├── Makefile             # Build instructions
+├── .gitignore           # Ignored files (bin/, .o, etc.)
+└── README.md            # Documentation
 
 
 
