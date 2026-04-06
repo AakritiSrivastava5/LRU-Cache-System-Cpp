@@ -17,14 +17,13 @@ The cache keeps track of cache **hits**, **misses**, and **total operations**, p
 
 ## Project Structure
 LRUcachesystem/
-│
 ├── include/
-│   └── LRUCache.h        # LRUCache class definition
+│   └── LRUCache.h            # LRUCache class definition
 ├── src/
-│   ├── LRUCache.cpp      # LRUCache function implementations
-│   └── main.cpp          # CLI interface / demo program
-├── README.md             # Project description and usage
-└── .gitignore            # Files/folders to ignore in Git
+│   ├── LRUCache.cpp          # LRUCache function implementations
+│   └── main.cpp              # CLI interface / demo program
+├── README.md                 # Project description and usage
+└── .gitignore                # Files/folders to ignore in Git
 
 
 
